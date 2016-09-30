@@ -59,9 +59,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/Graylog2/graylog2-server.git</connection>
-        <developerConnection>scm:git:git@github.com:Graylog2/graylog2-server.git</developerConnection>
-        <url>https://github.com/Graylog2/graylog2-server</url>
+        <connection>scm:git:git://github.com/bernd/graylog2-server.git</connection>
+        <developerConnection>scm:git:git@github.com:bernd/graylog2-server.git</developerConnection>
+        <url>https://github.com/bernd/graylog2-server</url>
         <tag>HEAD</tag>
     </scm>
 
