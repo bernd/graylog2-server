@@ -60,22 +60,22 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/Graylog2/graylog2-server.git</connection>
-        <developerConnection>scm:git:git@github.com:Graylog2/graylog2-server.git</developerConnection>
-        <url>https://github.com/Graylog2/graylog2-server</url>
+        <connection>scm:git:git@github.com:bernd/graylog2-server.git</connection>
+        <developerConnection>scm:git:git@github.com:bernd/graylog2-server.git</developerConnection>
+        <url>https://github.com/bernd/graylog2-server</url>
         <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
+            <id>sonatype-test-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>http://localhost:8081/repository/graylog-project-test-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>sonatype-nexus-staging</id>
+            <id>sonatype-test</id>
             <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>http://localhost:8081/repository/graylog-project-test/</url>
         </repository>
     </distributionManagement>
 
